@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.50em;
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.431),rgba(4, 21, 30, 0.7)),url(background-img.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.container{
+    width: 100%;
+    position: relative;
+    top: 50px;
+    /* border: 1px solid white; */
+    /* display: inline; */
+}
+#title{
+    text-align: center;
+}
+#discription{
+    text-align: center;
+}
+.form-container{
+    /* border: 1px solid white; */
+    box-sizing: border-box;
+    width: 35vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    background-image: linear-gradient(115deg,
+    rgba(58, 58, 158, 0.8),
+    rgba(136, 136, 206, 0.7));
+
+}
+.form-space{
+    margin: 8px 0;
+    padding: 10px 20px;
+}
+input, select{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+select{
+    width: 100%;
+}
+#name{
+    width: 100%;
+}
+#email{
+    width: 100%;
+}
+#number{
+    width: 100%;
+}
+.radio-head{
+    margin-bottom: -15px;
+}
+.checkbox-head{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+#text-area{
+    min-height: 120px;
+    width: 100%;
+    /* padding: 0.625rem; */
+    resize: vertical;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+#label-textarea{
+    margin-top: 10px;
+}
+#submit{
+    width: 100%;
+    background-image: linear-gradient(115deg,
+    rgba(61, 209, 47, 0.8),
+    rgba(53, 249, 18, 0.7));
+}

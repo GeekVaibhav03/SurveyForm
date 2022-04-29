@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+        <div class="container">
+            <h1 id="title"><i>Vaibhav's </i>Survey Form</h1>
+            <p id="discription">Thank you for taking the time to help us improve the platform</p>
+        </div>
+        <div class="form-container">
+        <div class="form-space">
+            <form action="#" id="survey-form">
+                <label for="name" id="name-label">Name</label><br>
+                <input type="text" name="name" id="name" placeholder="Enter your name" required><br> 
+                <label for="email" id="email-label">Email</label><br>
+                <input type="email" name="email" id="email" placeholder="Enter your email" required><br>
+                <label for="number" id="number-label">Age (Optional)</label><br>
+                <input type="number" name="number" id="number" placeholder="Enter your number" min="10" max="99"><br>
+                <label for="role" id="role-label">Which option best describes your current role?</label><br>
+                <select name="role" id="dropdown">
+                    <option value="option-value">Select an option</option>
+                    <option value="student">Student</option>
+                    <option value="Intern">Internship</option>
+                    <option value="part-time">Part time</option>
+                    <option value="full-time">Full Time Job</option>
+                    <option value="None">None</option>
+                </select>
+                <p class="radio-head">Would you recommend freeCodeCamp to a friend?</p><br>
+                <input type="radio" id="def"name="recom" value="Definitely">
+                <label for="def">Definitely</label><br>
+                <input type="radio" id="may" name="recom" value="Maybe">
+                <label for="may">Maybe</label><br>
+                <input type="radio" id="not" name="recom" value="Not sure">
+                <label for="not">Not sure</label>
+
+                <p class="checkbox-head">What would you like to see improved?</p>
+                <input type="checkbox" value="Front-end" id="front-end" name="front-end">
+                <label for="front-end">Front-End-Development</label><br>
+                <input type="checkbox" value="Back-end" id="back-end" name="back-end">
+                <label for="back-end">Back-End-Development</label><br>
+                <input type="checkbox" value="Videos" id="videos" name="videos">
+                <label for="videos">Videos</label><br>
+
+
+                <p id="label-textarea">Any Suggestions?</p><br>
+                <textarea name="text-area" id="text-area" placeholder="Enter your comments here..."></textarea>
+                
+                <label for="submit" class="button-label"></label>
+                <input type="submit" id="submit">
+            </form>
+        </div>
+        </div>
+</body>
+</html>
